@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="200" cy="150" r="120" fill="#D1FAE5" />
+  
+  <!-- Graduation Cap -->
+  <path
+    d="M200 80L280 120L200 160L120 120L200 80Z"
+    fill="#A78BFA"
+  />
+  <path
+    d="M200 160V220"
+    stroke="#A78BFA"
+    stroke-width="4"
+  />
+  
+  <!-- Book -->
+  <rect
+    x="140"
+    y="180"
+    width="120"
+    height="80"
+    rx="8"
+    fill="#34D399"
+  />
+  <path
+    d="M160 200H240M160 220H240M160 240H220"
+    stroke="white"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+  
+  <!-- Decorative Elements -->
+  <circle cx="150" cy="100" r="8" fill="#34D399" />
+  <circle cx="250" cy="100" r="8" fill="#34D399" />
+  <path
+    d="M120 150C120 150 140 170 200 170C260 170 280 150 280 150"
+    stroke="#34D399"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+
+  <!-- Dark mode styles -->
+  <style>
+    @media (prefers-color-scheme: dark) {
+      circle[fill="#D1FAE5"] { fill: rgba(6, 78, 59, 0.3); }
+      path[fill="#A78BFA"] { fill: #8B5CF6; }
+      path[stroke="#A78BFA"] { stroke: #8B5CF6; }
+      rect[fill="#34D399"] { fill: #10B981; }
+      circle[fill="#34D399"] { fill: #10B981; }
+      path[stroke="#34D399"] { stroke: #10B981; }
+    }
+  </style>
+</svg> 
