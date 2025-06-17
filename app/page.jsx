@@ -1,11 +1,11 @@
-import Navbar from "@/components/Navbar";
+import Navbar from '../components/Navbar';
 import "./globals.css";
-import Hero from "@/Components/Hero";
-import About from "@/Components/About";
-import Projects from "@/Components/Projects";
-import Education from "@/Components/Education";
-import Footer from "@/Components/Footer";
-import Contact from "@/Components/Contact";
+import Hero from '../Components/Hero';
+import About from '../Components/About';
+import Projects from '../Components/Projects';
+import Education from '../Components/Education';
+import Footer from '../Components/Footer';
+import Contact from '../Components/Contact';
 
 const page = () => {
   return (
