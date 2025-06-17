@@ -1,4 +1,3 @@
-"use client";
 import { PiGithubLogoFill } from "react-icons/pi";
 import Link from "next/link";
 import Image from "next/image";
