@@ -1,7 +1,7 @@
 export const project_data = [
     {
         title: "Estate",
-        image: "Estate.png",
+        image: "estate.png",
         description:
             "Estate is a responsive real estate web app built with React, Vite, and Tailwind CSS. It features project showcases, customer testimonials, an interactive contact form, and real-time notifications for a seamless user experience.",
         badges: ["React","Tailwind CSS"],
