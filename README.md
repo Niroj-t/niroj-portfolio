@@ -4,8 +4,6 @@ A modern, responsive portfolio website built with [Next.js](https://nextjs.org/)
 Showcasing projects, education, blogs, and contact information.
 
 ---
-## Live Demo
-Vercel: https://v1niroj-portfolio.vercel.app
 ## 🚀 Features
 
 - **Responsive Design:** Looks great on all devices.
