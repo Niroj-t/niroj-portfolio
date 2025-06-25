@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
   const handleDownloadResume = () => {
-    const resumeUrl = "/resume/Niroj_Thapa_Resume .pdf";
+    const resumeUrl = "/resume/Niroj_Thapa_Resume.pdf";
     window.open(resumeUrl, "_blank");
   };
   return (
