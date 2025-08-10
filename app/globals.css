@@ -1,7 +1,101 @@
 @import "tailwindcss";
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-poppins: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-jetbrains-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
 body {
-    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200;
-  }
+  @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200;
+  font-family: var(--font-inter);
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Font Family Utilities */
+.font-heading {
+  font-family: var(--font-poppins);
+}
+
+.font-body {
+  font-family: var(--font-inter);
+}
+
+.font-mono {
+  font-family: var(--font-jetbrains-mono);
+}
+
+/* Typography Scale */
+.text-display {
+  @apply text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-none;
+}
+
+.text-hero {
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight;
+}
+
+.text-title {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight;
+}
+
+.text-subtitle {
+  @apply text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight leading-snug;
+}
+
+.text-heading {
+  @apply text-xl md:text-2xl lg:text-3xl font-semibold tracking-tight leading-snug;
+}
+
+.text-subheading {
+  @apply text-lg md:text-xl lg:text-2xl font-medium tracking-normal leading-relaxed;
+}
+
+.text-body-large {
+  @apply text-lg md:text-xl font-normal leading-relaxed;
+}
+
+.text-body {
+  @apply text-base md:text-lg font-normal leading-relaxed;
+}
+
+.text-body-small {
+  @apply text-sm md:text-base font-normal leading-relaxed;
+}
+
+.text-caption {
+  @apply text-sm font-medium tracking-wide;
+}
+
+.text-overline {
+  @apply text-xs font-semibold tracking-widest uppercase;
+}
+
+.text-code {
+  @apply text-sm font-mono leading-relaxed;
+}
+
+/* Enhanced code blocks */
+.code-block {
+  @apply font-mono text-sm bg-gray-800 text-green-400 p-4 rounded-lg border border-gray-700;
+}
+
+/* Loading state for fonts */
+.font-loading {
+  font-display: swap;
+  font-feature-settings: normal;
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 640px) {
+  .text-display { @apply text-4xl; }
+  .text-hero { @apply text-3xl; }
+  .text-title { @apply text-2xl; }
+  .text-subtitle { @apply text-xl; }
+  .text-heading { @apply text-lg; }
+}
 
 * {
   scroll-behavior: smooth;
@@ -10,8 +104,6 @@ body {
 html {
   scroll-padding-top: 80px;
 }
-
-
 
 .card {
   /* background: rgba( 255, 255, 255, 0 ); */

@@ -1,20 +1,20 @@
 # Niroj Thapa Portfolio
 
-A modern, responsive portfolio website built with [Next.js](https://nextjs.org/), [React](https://react.dev/), and [Tailwind CSS](https://tailwindcss.com/).  
+A modern, responsive portfolio website built with [Next.js](https://nextjs.org/), [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Framer Motion](https://www.framer.com/motion/).  
 Showcasing projects, education, blogs, and contact information.
 
 ---
+
 ## 🚀 Features
 
 - **Responsive Design:** Looks great on all devices.
-- **Modern Stack:** Next.js, React, Tailwind CSS.
+- **Modern Stack:** Next.js, React, Tailwind CSS, Framer Motion.
 - **Project Showcase:** Highlight your best work.
 - **Blog Section:** Share your thoughts and updates.
 - **Education Timeline:** Display your academic journey.
 - **Contact Form:** Easy way for visitors to reach out.
 - **GitHub Integration:** Quick access to your GitHub profile.
-
----
+- **Smooth Animations:** Enhanced user experience with Framer Motion.
 
 ---
 
@@ -61,6 +61,6 @@ Showcasing projects, education, blogs, and contact information.
 
 ## 📦 Deployment
 
-Deploy easily to [Vercel](https://vercel.com/) (recommended)
----
+Deploy easily to [Vercel](https://vercel.com/) (recommended) or any platform supporting Next.js.
 
+---

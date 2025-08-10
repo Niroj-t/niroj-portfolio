@@ -179,10 +179,10 @@ const Projects = () => {
           animate={{ width: 48 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         />
-        <h1 className="text-3xl lg:text-4xl font-bold tracking-tight font-sans">
-          <span className="text-emerald-400 font-mono">&lt;</span>
+        <h1 className="text-title font-heading tracking-tight">
+          <span className="text-emerald-300 font-mono">&lt;</span>
           My Projects
-          <span className="text-emerald-400 font-mono"> /&gt;</span>
+          <span className="text-emerald-300 font-mono"> /&gt;</span>
         </h1>
       </motion.section>
 
@@ -243,7 +243,7 @@ const Projects = () => {
             {/* Detail Section */}
             <section className="p-1 lg:p-2 gap-1 flex flex-col lg:w-2/3 max-w-fit relative z-10">
               <motion.h3 
-                className="text-2xl lg:text-3xl font-bold text-white tracking-tight leading-tight"
+                className="text-heading font-heading text-white tracking-tight leading-tight"
                 animate={{
                   color: hoveredProject === index ? "#10b981" : "#ffffff"
                 }}
@@ -257,7 +257,7 @@ const Projects = () => {
                 {e.badges.map((badge, badgeIndex) => (
                   <motion.span
                     key={badgeIndex}
-                    className="bg-emerald-900/80 text-emerald-300 text-sm lg:text-base font-semibold me-2 px-3 py-1.5 rounded-lg min-w-fit backdrop-blur-sm border border-emerald-700/50 tracking-wide"
+                    className="bg-emerald-900/80 text-emerald-300 text-caption font-heading font-semibold me-2 px-3 py-1.5 rounded-lg min-w-fit backdrop-blur-sm border border-emerald-700/50 tracking-wide"
                     variants={badgeVariants}
                     initial="hidden"
                     animate="visible"
@@ -274,7 +274,7 @@ const Projects = () => {
               
               {/* Project Description */}
               <motion.p 
-                className="lg:text-lg text-gray-300 lg:p-2 leading-relaxed font-medium"
+                className="text-body font-body text-gray-300 lg:p-2 leading-relaxed"
                 animate={{
                   color: hoveredProject === index ? "#d1d5db" : "#9ca3af"
                 }}
@@ -308,7 +308,7 @@ const Projects = () => {
                     }}
                   />
                   <PiGithubLogoFill className="bg-gray-800 w-11 h-11 rounded-xl text-white hover:bg-emerald-500 p-1.5 hover:text-white transition-all duration-300 relative z-10 shadow-lg" />
-                  <span className="text-gray-300 text-sm pt-1.5 flex items-center font-medium tracking-wide">
+                  <span className="text-body-small font-heading pt-1.5 flex items-center tracking-wide">
                     Source Code <FaLink className="ml-2" />
                   </span>
                 </motion.a>
@@ -336,7 +336,7 @@ const Projects = () => {
                     }}
                   />
                   <CgWebsite className="bg-gray-800 w-11 h-11 rounded-xl text-emerald-400 hover:bg-emerald-500 p-1.5 hover:text-white transition-all duration-300 relative z-10 shadow-lg" />
-                  <span className="text-gray-300 text-sm pt-1.5 flex items-center font-medium tracking-wide">
+                  <span className="text-body-small font-heading pt-1.5 flex items-center tracking-wide">
                     Live Project <FaExternalLinkAlt className="ml-2" />
                   </span>
                 </motion.a>

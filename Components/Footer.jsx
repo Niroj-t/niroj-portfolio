@@ -126,10 +126,10 @@ const Footer = () => {
           className="text-center mb-6"
           variants={textVariants}
         >
-          <motion.p className="text-lg text-gray-300 mb-4">
+          <motion.p className="text-body font-body text-gray-300 mb-4">
             Built with 
             <motion.span 
-              className="font-semibold text-emerald-400 mx-2"
+              className="font-semibold text-emerald-400 mx-2 font-heading"
               whileHover={{ scale: 1.1, color: "#10b981" }}
               transition={{ duration: 0.2 }}
             >
@@ -137,7 +137,7 @@ const Footer = () => {
             </motion.span>
             <span className="text-gray-400">&middot;</span>
             <motion.span 
-              className="font-semibold text-emerald-400 mx-2"
+              className="font-semibold text-emerald-400 mx-2 font-heading"
               whileHover={{ scale: 1.1, color: "#10b981" }}
               transition={{ duration: 0.2 }}
             >
@@ -146,7 +146,7 @@ const Footer = () => {
             
             and deployed with
             <motion.span 
-              className="font-semibold text-emerald-400 mx-2"
+              className="font-semibold text-emerald-400 mx-2 font-heading"
               whileHover={{ scale: 1.1, color: "#10b981" }}
               transition={{ duration: 0.2 }}
             >
@@ -159,10 +159,10 @@ const Footer = () => {
           className="text-center"
           variants={textVariants}
         >
-          <span className="text-gray-400">Developed by </span>
+          <span className="text-body font-body text-gray-400">Developed by </span>
           <motion.a
             href="https://github.com/Niroj-t" 
-            className="inline-block text-emerald-400 font-semibold hover:text-emerald-300 transition-colors duration-200"
+            className="inline-block text-emerald-400 font-semibold hover:text-emerald-300 transition-colors duration-200 font-heading"
             target="_blank"
             rel="noopener noreferrer"
             variants={linkVariants}
@@ -180,7 +180,7 @@ const Footer = () => {
           {['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'].map((tech, index) => (
             <motion.span
               key={tech}
-              className="px-3 py-1 bg-emerald-500/20 text-emerald-400 text-sm font-medium rounded-full border border-emerald-500/30 hover:bg-emerald-500/30 transition-colors duration-200"
+              className="px-3 py-1 bg-emerald-500/20 text-emerald-400 text-caption font-heading font-medium rounded-full border border-emerald-500/30 hover:bg-emerald-500/30 transition-colors duration-200"
               variants={badgeVariants}
               whileHover="hover"
               transition={{ delay: index * 0.1 }}
