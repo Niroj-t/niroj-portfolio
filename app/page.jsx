@@ -6,6 +6,7 @@ import Projects from '../Components/Projects';
 import Education from '../Components/Education';
 import Footer from '../Components/Footer';
 import Contact from '../Components/Contact';
+import Experience from "@/Components/Experience";
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
         <Navbar />
         <Hero/>
         <About/>
+        <Experience/>
         <Projects/>
         <Education/>
         <Contact/>

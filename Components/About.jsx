@@ -7,7 +7,7 @@ import { IoLogoCss3 } from "react-icons/io5";
 import { SiMysql } from "react-icons/si";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
-import { SiVite, SiTailwindcss, SiVercel } from "react-icons/si";
+import { SiNextdotjs,SiVite, SiTailwindcss, SiVercel } from "react-icons/si";
 import "../app/globals.css";
 import Link from "next/link";
 import { motion, useMotionValue, useTransform } from "framer-motion";
@@ -150,6 +150,7 @@ const About = () => {
   const skills = [
     { name: "JavaScript", icon: RiJavascriptFill, color: "text-yellow-400", bg: "bg-yellow-400/10" },
     { name: "React", icon: FaReact, color: "text-blue-400", bg: "bg-blue-400/10" },
+    { name: "Next.js", icon: SiNextdotjs, color: "text-white", bg: "bg-gray-800/50" },
     { name: "HTML5", icon: FaHtml5, color: "text-orange-500", bg: "bg-orange-500/10" },
     { name: "CSS3", icon: IoLogoCss3, color: "text-blue-500", bg: "bg-blue-500/10" },
     { name: "Tailwind", icon: SiTailwindcss, color: "text-cyan-400", bg: "bg-cyan-400/10" },

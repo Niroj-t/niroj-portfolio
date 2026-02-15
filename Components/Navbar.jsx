@@ -124,11 +124,12 @@ const Navbar = () => {
   const navItems = [
     { href: "#", label: "Home", emoji: "🏠" },
     { href: "#about", label: "About", emoji: "👨‍💻" },
-    { href: "#projects", label: "Projects", emoji: "💼" },
+    { href: "#experience", label: "Experience", emoji: "💼" },
+    { href: "#projects", label: "Projects", emoji: "🚀" },
     { href: "#education", label: "Education", emoji: "🎓" },
-    { href: "#blogs", label: "Blogs", emoji: "📝" },
     { href: "#contact", label: "Contact", emoji: "📧" }
   ];
+
 
   return (
     <motion.nav 
