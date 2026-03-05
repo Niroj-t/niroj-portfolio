@@ -11,12 +11,12 @@ const Hero = () => {
   };
 
   return (
-    <main className="min-h-[calc(100svh-5.03rem)] p-6 flex flex-col lg:gap-8 gap-4 bg-gray-900 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl" />
+    <main className="min-h-[calc(100svh-5.03rem)] p-8 flex flex-col lg:gap-8 gap-4 bg-gray-900 relative overflow-hidden">
+      <div className="absolute inset-0 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl" />
       <div className="absolute top-20 left-20 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl" />
       <div className="absolute bottom-20 right-20 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl" />
 
-      <section className="flex lg:flex-row flex-col lg:items-center lg:justify-between lg:gap-16 gap-8 relative z-10 lg:mt-16 mt-12">
+      <section className="flex lg:flex-row flex-col px-8 lg:items-center lg:justify-between lg:gap-16 gap-8 relative z-10 lg:mt-16 mt-12">
         <section className="flex flex-col gap-6 lg:w-1/2">
           <div className="flex flex-col gap-4">
             <h1 className="text-hero font-heading text-white leading-tight">
@@ -56,7 +56,7 @@ const Hero = () => {
 
         <section className="lg:w-1/2 flex justify-center items-center">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/30 to-blue-500/30 rounded-full blur-2xl" />
+            <div className="absolute inset-0 bg-linear-to-r from-emerald-500/30 to-blue-500/30 rounded-full blur-2xl" />
             <Image
               src="/profile.jpg"
               alt="Niroj Thapa - Developer Profile"

@@ -9,6 +9,7 @@ import { PiGithubLogoFill } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiNextdotjs, SiVite, SiTailwindcss, SiVercel } from "react-icons/si";
 import "../app/globals.css";
+import { SiTypescript, SiShadcnui, SiJira } from "react-icons/si";
 
 const About = () => {
   const skills = [
@@ -18,10 +19,14 @@ const About = () => {
     { name: "HTML5", icon: FaHtml5, color: "text-orange-500", bg: "bg-orange-500/10" },
     { name: "CSS3", icon: IoLogoCss3, color: "text-blue-500", bg: "bg-blue-500/10" },
     { name: "Tailwind", icon: SiTailwindcss, color: "text-cyan-400", bg: "bg-cyan-400/10" },
+    { name: "TypeScript", icon: SiTypescript, color: "text-blue-500", bg: "bg-blue-500/10" },
     { name: "Git", icon: FaGit, color: "text-red-500", bg: "bg-red-500/10" },
     { name: "MySQL", icon: SiMysql, color: "text-blue-600", bg: "bg-blue-600/10" },
+    { name: "Jira", icon: SiJira, color: "text-blue-500", bg: "bg-blue-500/10" },
+    { name: "Shadcn/ui", icon: SiShadcnui, color: "text-white", bg: "bg-gray-800/50" },
     { name: "Vite", icon: SiVite, color: "text-purple-500", bg: "bg-purple-500/10" },
     { name: "Vercel", icon: SiVercel, color: "text-white", bg: "bg-gray-800/50" },
+
   ];
 
   return (
@@ -30,7 +35,7 @@ const About = () => {
       id="about"
     >
       {/* Background elements */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl" />
+      <div className="absolute inset-0 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl" />
       <div className="absolute top-20 left-20 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl" />
       <div className="absolute bottom-20 right-20 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl" />
 
@@ -95,7 +100,7 @@ const About = () => {
         </section>
 
         <aside className="lg:w-1/3 flex flex-col gap-6">
-          <div className="bg-gradient-to-r from-emerald-500/10 to-blue-500/10 backdrop-blur-sm border border-emerald-500/20 rounded-xl p-6 shadow-lg">
+          <div className="bg-linear-to-r from-emerald-500/10 to-blue-500/10 backdrop-blur-sm border border-emerald-500/20 rounded-xl p-6 shadow-lg">
             <h3 className="text-subheading font-heading text-emerald-400 mb-3">
               💡 Fun Fact
             </h3>

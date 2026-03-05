@@ -12,7 +12,7 @@ const Projects = () => {
       className="min-h-[calc(100svh-5.03rem)] lg:p-6 p-1 flex flex-col lg:gap-8 gap-4 bg-gray-900 relative overflow-hidden"
       id="projects"
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl" />
+      <div className="absolute inset-0 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl" />
 
       <section className="flex items-center gap-4 pt-2 text-white relative z-10">
         <hr className="h-1 w-12 bg-emerald-400 rounded-full" />

@@ -1,5 +1,14 @@
 export const project_data = [
     {
+        title: "ai-resume-analyzer",
+        image: "resume-analyzer.png",
+        description:
+            " AI-powered Resume Analyzer built with Next.js, NextAuth, Prisma, Neon PostgreSQL, and Gemini API. Upload resumes, compare with job descriptions, and receive ATS-style feedback instantly.",
+        badges: ["Next.js", "Prisma", "Neon PostgreSQL", "Gemini API"],
+        github: "https://github.com/Niroj-t/ai-resume-analyzer",
+        live: "https://ai-resume-analyzer-w5gz.vercel.app",
+    },
+    {
         title: "Estate",
         image: "estate.png",
         description:
@@ -7,6 +16,15 @@ export const project_data = [
         badges: ["React","Tailwind CSS"],
         github: "https://github.com/Niroj-t/Estate",
         live: "https://estate-8ute.vercel.app",
+    },
+    {
+        title: "ChatGPT Clone",
+        image: "chatgpt-clone.png",
+        description:
+            "This project is a clone of chatGPT built with React, Vite, and Firebase. It features a clean and responsive user interface and chat with others. The app uses Firebase for authentication and data storage, and supports media sharing within chats.The project is structured for scalability and maintainability, making it suitable for learning or extending into a full-featured messaging platform ",
+        badges: ["UI-assistant","Typescript"],
+        github: "https://github.com/Niroj-t/ChatAI",
+        live: "https://chatai-tau-six.vercel.app",
     },
     {
         title: "Weather-App",
@@ -17,14 +35,5 @@ export const project_data = [
         github:
             "https://github.com/Niroj-t/WeatherApp",
         live: "https://weather-app-seven-iota-15.vercel.app",
-    },
-    {
-        title: "ChatGPT Clone",
-        image: "chatgpt-clone.png",
-        description:
-            "This project is a clone of chatGPT built with React, Vite, and Firebase. It features a clean and responsive user interface and chat with others. The app uses Firebase for authentication and data storage, and supports media sharing within chats.The project is structured for scalability and maintainability, making it suitable for learning or extending into a full-featured messaging platform ",
-        badges: ["UI-assistant","Typescript"],
-        github: "https://github.com/Niroj-t/ChatAI",
-        live: "https://chatai-tau-six.vercel.app",
     },
 ];
